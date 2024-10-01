@@ -3,15 +3,15 @@
     <form @submit.prevent="handleSubmit">
       <div class="mb-4">
         <label for="new-password" class="sr-only">Mật khẩu mới</label>
-          <input id="new-password" name="password" type="password" required=""
+          <input id="new-password" name="password" type="password" required="" 
                  class="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-1 focus:ring-[#b8a79c]"
-                 placeholder="New Password"/>
+                 placeholder="Mật khẩu mới"/>
       </div>
       <div class="mb-4">
         <label for="password_repeat" class="sr-only">Nhập lại mật khẩu mới</label>
           <input id="password_repeat" name="password_repeat" type="password_repeat" required=""
                  class="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-1 focus:ring-[#b8a79c]"
-                 placeholder="New Password"/>
+                 placeholder="Nhập lại mật khẩu mới"/>
       </div>
       <button
         type="submit"

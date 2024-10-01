@@ -1,5 +1,5 @@
 <template>
-  <GuestLayout title="Request Password">
+  <GuestLayout title="Quên mật khẩu">
     <form @submit.prevent="handleSubmit">
       <div class="mb-4">
         <input
