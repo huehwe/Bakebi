@@ -24,17 +24,12 @@
       <div class="mt-4 text-center">
         <a href="#" class="text-sm text-[#b8a79c] hover:underline">Đăng kí tài khoản mới</a>
         <span class="mx-2 text-gray-500">|</span>
-        <router-link to ="/request-password" class="text-sm text-[#b8a79c] hover:underline">Quên mật khẩu?</router-link>
+        <router-link to="/request-password" class="text-sm text-[#b8a79c] hover:underline">Quên mật khẩu?</router-link>
       </div>
     </form>
   </GuestLayout>
 </template>
 
-<script setup>
+<script>
 import GuestLayout from '../components/GuestLayout.vue'
-
-const handleSubmit = () => {
-  // Handle form submission
-  console.log('Login form submitted')
-}
 </script>
