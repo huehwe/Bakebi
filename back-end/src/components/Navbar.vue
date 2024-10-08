@@ -32,6 +32,10 @@
   </template>
   
   <script>
+  import {computed} from 'vue';
+
+const currentUser = computed(()=>store.state.user.data);
+
   export default {
     name: 'Navbar',
     data() {
