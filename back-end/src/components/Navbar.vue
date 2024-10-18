@@ -34,6 +34,14 @@
   <script>
   import {computed} from 'vue';
 
+
+  function logout() {
+  store.dispatch('logout')
+    .then(() => {
+      router.push({name: 'login'})
+    })
+}
+
 const currentUser = computed(()=>store.state.user.data);
 
   export default {
